@@ -9,7 +9,7 @@ function Recommended({ carArray, setCarArray, setCarOverview }) {
       </span>
       <br />
       <div></div>
-      <div className="flex pt-6 justify-around  flex-wrap gap-8">
+      <div className="flex pt-6 justify-around  flex-wrap gap-6">
         {carArray
           .filter((s) => s.popularity === 1)
           .map((s) => (
