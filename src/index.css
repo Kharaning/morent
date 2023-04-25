@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footersmall {
+  @apply text-[#131313]/40 cursor-pointer;
+}
+
+.footerbig {
+  @apply font-bold text-[#1A202c] cursor-pointer;
+}
